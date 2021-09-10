@@ -37,10 +37,24 @@ ex) the system has to count video view events. you can generalize the API based 
 
 - non-functional requirements: fast, fault-tolerant, and secure. how a system is supposed to be. 
 
-### always start with simple case when design.
-
 
 - users/customers
 - scale (read and write)
 - performance 
 - cost
+
+### always start with simple case when design.
+
+it is important to start a simple use case since usually system is complicated and trying to do everything at once is not efficient approach. Then, solve the problem step by step. there is no correct order, you can start at any point as long as it is simple.
+
+#### 1. define the data model
+
+think what to store (e.g., table and column)
+
+there are multiple way to store the data (e.g., store individual domain or aggregate data in real-time) and each approach has pros and cons. 
+
+#### 2. define database (SQL vs NoSQL)
+
+
+
+### ask questions for clarification (think out loud)
